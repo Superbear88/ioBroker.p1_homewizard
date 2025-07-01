@@ -1,0 +1,91 @@
+{
+	"common": {
+		"name": "p1_homewizard",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "P1 homewizard",
+			"de": "P1 homewizard",
+			"ru": "P1 homewizard",
+			"pt": "P1 homewizard",
+			"nl": "P1 homewizard",
+			"fr": "P1 homewizard",
+			"it": "P1 homewizard",
+			"es": "P1 homewizard",
+			"pl": "P1 homewizard",
+			"uk": "P1 homewizard",
+			"zh-cn": "P1 homewizard"
+		},
+		"desc": {
+			"en": "API Adapter for homewizard P1",
+			"de": "API Adapter for homewizard P1",
+			"ru": "API Adapter for homewizard P1",
+			"pt": "API Adapter for homewizard P1",
+			"nl": "API Adapter for homewizard P1",
+			"fr": "API Adapter for homewizard P1",
+			"it": "API Adapter for homewizard P1",
+			"es": "API Adapter for homewizard P1",
+			"pl": "API Adapter for homewizard P1",
+			"uk": "API Adapter for homewizard P1",
+			"zh-cn": "API Adapter for homewizard P1"
+		},
+		"authors": [
+			"Superbear88 <esel1988@gmail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "GPL-3.0"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "p1_homewizard.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Superbear88/ioBroker.p1_homewizard/main/admin/p1_homewizard.png",
+		"readme": "https://github.com/Superbear88/ioBroker.p1_homewizard/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "communication",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"unique_id": "",
+		"smr_version": 0
+	},
+	"objects": [],
+	"instanceObjects": []
+}

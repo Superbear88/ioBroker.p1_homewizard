@@ -1,0 +1,16 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"unique_id": {
+			"type": "text",
+			"label": "ID",
+			"newLine": true
+		},
+		"smr_version": {
+			"type": "number",
+			"label": "Version",
+			"newLine": true
+		}
+	}
+}

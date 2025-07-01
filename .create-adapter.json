@@ -1,0 +1,47 @@
+{
+	"expert": "no",
+	"cli": false,
+	"adapterName": "p1_homewizard",
+	"title": "P1 homewizard",
+	"description": "API Adapter for homewizard P1",
+	"keywords": "",
+	"contributors": "",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "communication",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "unique_id",
+			"label": "ID",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "smr_version",
+			"label": "Version",
+			"inputType": "number",
+			"defaultValue": 0
+		}
+	],
+	"language": "JavaScript",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"authorName": "Superbear88",
+	"authorGithub": "Superbear88",
+	"authorEmail": "esel1988@gmail.com",
+	"license": "GNU GPLv3",
+	"target": "github",
+	"creatorVersion": "2.6.5"
+}
